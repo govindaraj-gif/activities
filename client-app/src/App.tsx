@@ -7,6 +7,7 @@ import { List } from 'semantic-ui-react'
 
 
 function App() {
+
   const[activities,setActivities] = useState([]);
 
   useEffect(() => {
@@ -20,7 +21,6 @@ function App() {
     <div >
 <Header as='h2' icon='users' content='activities'/>
 
- 
        <List>
         {activities.map((activity:any)=>(
           <li key={activity.id}>
@@ -28,7 +28,6 @@ function App() {
           </li>
         ))}
         </List>
-       
     </div>
   );
 }
