@@ -1,0 +1,8 @@
+ body{
+  background-color: #eaeaea !important;
+ }
+
+ .ui.inverted.top.fixed.menu{
+  background-image: linear-gradient(185deg,rgb(34, 165, 247) ,rgba(45, 197, 231, 0.784),rgb(113, 184, 243));
+ }
+
